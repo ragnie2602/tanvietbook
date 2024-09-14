@@ -1,0 +1,171 @@
+name: true_clone
+description: True Agency Clone.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 2.0.0+3
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  freezed_annotation: 2.4.1
+  #environment
+  flutter_dotenv: 5.1.0
+  # flutter_colorpicker: ^1.0.3
+  #compare two list
+  collection: 1.18.0
+  #animation
+  animated_widgets: 1.1.0
+  lottie: 2.6.0
+  # Create vCards to import contacts into Outlook, iOS, Mac OS, and Android devices from your website or mobile application.
+  # vcard_maintained: ^0.0.1+1
+  # rive: ^0.10.1
+  # add Locale
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: 2.0.9
+  cached_network_image: 3.3.0
+  intl: 0.18.1
+  flutter_bloc: 8.1.4
+  # sqflite: ^2.0.3
+  #  dropdownfield: ^1.0.3
+  marquee: 2.2.3
+  http: 0.13.6
+  meta: 1.11.0
+  shared_preferences: 2.2.2
+  image_picker: 0.8.9
+  file_picker: 5.5.0
+  image_cropper: 3.0.3
+  image_gallery_saver: 2.0.3
+  dio: 4.0.6
+  dotted_border: 2.1.0
+  # scanner qr code with camera
+  qr_code_scanner: 1.0.1
+  qr_flutter: 4.1.0
+  # scanner qr code in gallery_images
+  scan: 1.6.0
+  flutter_widget_from_html: 0.14.11
+  font_awesome_flutter: 10.7.0
+
+  carousel_slider: 4.2.1
+  youtube_player_flutter: 8.1.2
+  fluttertoast: 8.2.4
+  uni_links: 0.5.1
+  flutter_slidable: 1.3.1
+  url_launcher: 6.1.14
+  # get_it dependencies injection
+  get_it: 7.6.4
+  #equatable: help us compare the state between two views -> prevent to rebuild the UI unnecessary.
+  equatable: 2.0.5
+  share_plus: 7.0.2
+  screenshot: 2.1.0
+  #A Flutter SignalR Client for ASP.NET Core.
+  signalr_netcore: "1.3.4"
+  path_provider: 2.1.1
+  #webview
+  #  webview_flutter: ^3.0.4
+  #log interceptor
+  pretty_dio_logger: 1.2.0-beta-1
+  flutter_contacts: 1.1.7+1
+  expandable: 5.0.1
+
+  #shimmer
+  shimmer: 2.0.0
+
+  #in-app-update
+  upgrader: 7.1.0
+
+  #OAuth2 + openId
+  flutter_appauth: 4.2.1
+
+  #editor
+  flutter_quill: "9.2.0"
+  # html_editor_enhanced: ^2.5.1
+
+  #dropdownbutton:
+  dropdown_button2: 2.3.9
+  dropdown_search: 5.0.6
+  flutter_switch: 0.3.2
+  bottom_nav_layout: 3.0.10
+  reorderable_grid_view: 2.2.8
+  extended_nested_scroll_view: 6.1.2
+  infinite_scroll_pagination: 4.0.0
+  json_annotation: 4.8.1
+  json_serializable: 6.6.1
+
+  # fcm
+  firebase_messaging: ^14.7.9
+  firebase_core: ^2.24.2
+  flutter_local_notifications: ^16.3.0
+
+  # position
+  flutter_map: 4.0.0
+  geocoding: 2.2.0
+  geolocator: 11.0.0
+  map_launcher: 3.2.0
+  permission_handler: 11.3.0
+
+  # view
+  table_calendar: 3.0.9
+
+dev_dependencies:
+  # flutter_test:
+  #   sdk: flutter
+  flutter_launcher_icons: ^0.10.0
+  flutter_lints: ^2.0.0
+  freezed: 2.4.5
+  build_runner: 2.4.9
+  build_runner_core: 7.3.0
+  logging: 1.2.0
+  analyzer: 5.13.0
+  change_app_package_name: 1.1.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - app_config_test.env
+    - app_config_product.env
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/resources/
+
+  fonts:
+    #     - family: Lato
+    #       fonts:
+    #        - asset: assets/fonts/Lato-Regular.ttf
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand-Bold.ttf
+        # - asset: assets/fonts/Quicksand-Light.ttf
+        - asset: assets/fonts/Quicksand-Medium.ttf
+        - asset: assets/fonts/Quicksand-SemiBold.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        #        - asset: assets/fonts/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+    #        - asset: assets/fonts/Roboto-Italic.ttf
+    #        - asset: assets/fonts/Roboto-MediumItalic.ttf
+    #        - asset: assets/fonts/Roboto-BoldItalic.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf

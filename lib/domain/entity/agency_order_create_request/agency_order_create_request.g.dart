@@ -1,0 +1,106 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'agency_order_create_request.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$AgencyOrderCreateRequestImpl _$$AgencyOrderCreateRequestImplFromJson(
+        Map<String, dynamic> json) =>
+    _$AgencyOrderCreateRequestImpl(
+      orderCode: json['orderCode'] as String?,
+      userId: json['userId'] as String?,
+      productOrderCs: (json['productOrderCs'] as List<dynamic>?)
+          ?.map((e) => ProductOrderC.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      status: json['status'] as int?,
+      paymentStatus: json['paymentStatus'] as int?,
+      payment: json['payment'] as int?,
+      userName: json['userName'] as String?,
+      phoneNumber: json['phoneNumber'] as String?,
+      address: json['address'] as String?,
+      email: json['email'] as String?,
+      district: json['district'] as String?,
+      province: json['province'] as String?,
+      commune: json['commune'] as String?,
+      image: json['image'] as String?,
+      paymentMethod: json['paymentMethod'] as int?,
+      note: json['note'] as String?,
+      transportFee: json['transportFee'] as int?,
+      discountCode: json['discountCode'] as String?,
+      discountCodeInfo: json['discountCodeInfo'] as String?,
+      fullName: json['fullName'] as String?,
+      referralName: json['referralName'] as String?,
+      agency: json['agency'] as String?,
+      transportId: json['transportId'] as String?,
+      transportMethod: json['transportMethod'] as int?,
+      warehouseId: json['warehouseId'] as String?,
+      orderMethod: json['orderMethod'] as int?,
+      receiverName: json['receiverName'] as String?,
+      receiverPhoneNumber: json['receiverPhoneNumber'] as String?,
+      receiverAddress: json['receiverAddress'] as String?,
+      receiverEmail: json['receiverEmail'] as String?,
+      receiverDistrict: json['receiverDistrict'] as String?,
+      receiverProvince: json['receiverProvince'] as String?,
+      receiverCommune: json['receiverCommune'] as String?,
+      receiverId: json['receiverId'] as String?,
+      discountAmount: json['discountAmount'] as int?,
+      typeVoucher: json['typeVoucher'] as int?,
+      voucherMethod: json['voucherMethod'] as int?,
+      region: json['region'] as int?,
+      state: json['state'] as int?,
+      weight: json['weight'] as int?,
+      length: json['length'] as int?,
+      width: json['width'] as int?,
+      height: json['height'] as int?,
+    );
+
+Map<String, dynamic> _$$AgencyOrderCreateRequestImplToJson(
+        _$AgencyOrderCreateRequestImpl instance) =>
+    <String, dynamic>{
+      'orderCode': instance.orderCode,
+      'userId': instance.userId,
+      'productOrderCs':
+          instance.productOrderCs?.map((e) => e.toJson()).toList(),
+      'status': instance.status,
+      'paymentStatus': instance.paymentStatus,
+      'payment': instance.payment,
+      'userName': instance.userName,
+      'phoneNumber': instance.phoneNumber,
+      'address': instance.address,
+      'email': instance.email,
+      'district': instance.district,
+      'province': instance.province,
+      'commune': instance.commune,
+      'image': instance.image,
+      'paymentMethod': instance.paymentMethod,
+      'note': instance.note,
+      'transportFee': instance.transportFee,
+      'discountCode': instance.discountCode,
+      'discountCodeInfo': instance.discountCodeInfo,
+      'fullName': instance.fullName,
+      'referralName': instance.referralName,
+      'agency': instance.agency,
+      'transportId': instance.transportId,
+      'transportMethod': instance.transportMethod,
+      'warehouseId': instance.warehouseId,
+      'orderMethod': instance.orderMethod,
+      'receiverName': instance.receiverName,
+      'receiverPhoneNumber': instance.receiverPhoneNumber,
+      'receiverAddress': instance.receiverAddress,
+      'receiverEmail': instance.receiverEmail,
+      'receiverDistrict': instance.receiverDistrict,
+      'receiverProvince': instance.receiverProvince,
+      'receiverCommune': instance.receiverCommune,
+      'receiverId': instance.receiverId,
+      'discountAmount': instance.discountAmount,
+      'typeVoucher': instance.typeVoucher,
+      'voucherMethod': instance.voucherMethod,
+      'region': instance.region,
+      'state': instance.state,
+      'weight': instance.weight,
+      'length': instance.length,
+      'width': instance.width,
+      'height': instance.height,
+    };

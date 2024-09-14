@@ -1,0 +1,12 @@
+//
+//  dev.xcconfig
+//  Runner
+//
+//  Created by Pham Thanh on 31/08/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Generated.xcconfig"
+FLUTTER_TARGET=/Users/thanh28/Flutter/scard/lib/main_dev.dart
+bundle_suffix = .dev
